@@ -72,6 +72,30 @@ class _MainScreenState extends State<MainScreen> {
                   transactionDate.year == month.year;
             }).toList();
 
+            // if there are no transactions for the month, render a message
+            if (monthTransactions.isEmpty) {
+              return const Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'No transactions for this month',
+                    style: TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(height: 8.0),
+                  Text(
+                    'Start adding transactions by clicking the +',
+                    style: TextStyle(
+                      fontSize: 14.0,
+                      color: Colors.grey,
+                    ),
+                  )
+                ],
+              );
+            }
+
             // Group transactions by date
             Map<String, List<Transaction>> groupedTransactions =
                 groupTransactionsByDate(monthTransactions);
