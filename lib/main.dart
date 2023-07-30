@@ -1,3 +1,4 @@
+import 'package:cash_compass/helpers/constants.dart';
 import 'package:cash_compass/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -10,11 +11,19 @@ class CashCompass extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final ThemeData theme = ThemeData(
+      primarySwatch: customSwatch,
+      colorScheme: const ColorScheme.light().copyWith(
+        primary: customColorPrimary,
+        secondary: customColorPrimary,
+        tertiary: customColorPrimary,
+        onPrimary: Colors.white,
+        onSecondary: Colors.white,
+        onTertiary: Colors.white,
+      ),
+    );
+
     return MaterialApp(
-        title: 'CashCompass',
-        theme: ThemeData(
-          primarySwatch: Colors.green,
-        ),
-        home: const SplashScreen());
+        title: 'CashCompass', theme: theme, home: const SplashScreen());
   }
 }

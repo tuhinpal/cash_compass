@@ -23,7 +23,7 @@ class _RenderIncomeExpenseState extends State<RenderIncomeExpense> {
         children: <Widget>[
           BorderedItem(
             currencyWise: currencyWise,
-            type: 'Income',
+            type: incomeConstant,
             color: Colors.green,
             backgroundColor: Colors.green[50]!,
           ),
@@ -32,7 +32,7 @@ class _RenderIncomeExpenseState extends State<RenderIncomeExpense> {
           ),
           BorderedItem(
               currencyWise: currencyWise,
-              type: 'Expense',
+              type: expensConstant,
               color: Colors.red,
               backgroundColor: Colors.red[50]!),
         ],

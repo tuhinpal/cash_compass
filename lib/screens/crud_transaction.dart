@@ -362,7 +362,7 @@ class _CrudTransactionState extends State<CrudTransaction> {
                       },
                       style: ButtonStyle(
                         backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.red),
+                            MaterialStateProperty.all<Color>(customDangerColor),
                         padding: MaterialStateProperty.all(
                           const EdgeInsets.only(
                             top: 12.0,

@@ -51,7 +51,6 @@ class _MainScreenState extends State<MainScreen> {
                       TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
             ],
           ),
-          backgroundColor: const Color(0xFF00d72e),
           centerTitle: true,
           bottom: TabBar(
             isScrollable: true,
@@ -60,6 +59,7 @@ class _MainScreenState extends State<MainScreen> {
               String monthYear = DateFormat('MMMM yyyy').format(month);
               return Tab(text: monthYear.toUpperCase());
             }).toList(),
+            labelColor: Colors.white,
           ),
         ),
         body: TabBarView(
@@ -228,7 +228,6 @@ class _MainScreenState extends State<MainScreen> {
               fetchTransactions();
             });
           },
-          backgroundColor: const Color(0xFF00d72e),
           child: const Icon(Icons.add),
         ),
       ),
