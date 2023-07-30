@@ -33,5 +33,5 @@ jobs:
       - name: Archive artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: app-release
+          name: app-release.apk
           path: build/app/outputs/flutter-apk/app-release.apk
