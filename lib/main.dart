@@ -11,8 +11,10 @@ class CashCompass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Cash Compass',
-        theme: ThemeData(primarySwatch: Colors.green),
+        title: 'CashCompass',
+        theme: ThemeData(
+          primarySwatch: Colors.green,
+        ),
         home: const SplashScreen());
   }
 }
