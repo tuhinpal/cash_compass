@@ -1,3 +1,4 @@
+import 'package:cash_compass/helpers/constants.dart';
 import 'package:cash_compass/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: const Color(0xFF00d72e),
+        backgroundColor: customColorPrimary,
         body: Stack(
           children: <Widget>[
             Center(
