@@ -1,3 +1,3 @@
-# cash_compass
+# Cash compass
 
-A new Flutter project.
+## A project for completing the course Mobile Application Development with Flutter at ARDENT COMPUTECH PVT. LTD.

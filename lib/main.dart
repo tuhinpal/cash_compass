@@ -24,6 +24,10 @@ class CashCompass extends StatelessWidget {
     );
 
     return MaterialApp(
-        title: 'CashCompass', theme: theme, home: const SplashScreen());
+      title: 'CashCompass',
+      theme: theme,
+      home: const SplashScreen(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
