@@ -1,14 +1,12 @@
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://github.com/tuhinpal/cash_compass">
-    <img src="https://raw.githubusercontent.com/tuhinpal/cash_compass/main/assets/images/icon.png" alt="Cashcompass Logo" width="80" height="80">
+    <img src="https://github.com/tuhinpal/cash_compass/assets/51857187/06d0a724-51c5-40e1-978a-c426b353a275" alt="Cashcompass Logo" width="150" height="150">
   </a>
 
   <h3 align="center">CashCompass</h3>
 
   <p align="center">
-    A financial management app made with Flutter (v0.1.1)
+    Master Your Money: Effortless Tracking and Smarter Spending
     <br />
     <a href="https://github.com/tuhinpal/cash_compass/releases/download/v0.1.1/app-release.apk"><strong>Download on Android »</strong></a>
     <br />
@@ -31,7 +29,7 @@
 
 ## Screenshots 📸
 
-Add here from github
+![Screenshot of CashCompass](https://github.com/tuhinpal/cash_compass/assets/51857187/1855a9a0-3d4c-4368-8842-66118af08d88)
 
 ## Install the app 🚀
 
