@@ -35,7 +35,7 @@
 
 ## Install the app 🚀
 
-You can download the app from the [by clicking here](https://github.com/tuhinpal/cash_compass/releases/download/v0.1.1/app-release.apk), you can also visit the [relese section](https://github.com/tuhinpal/cash_compass/releases) to download specific version of the app.
+You can download the app from the [by clicking here](https://github.com/tuhinpal/cash_compass/releases/download/v0.1.1/app-release.apk), you can also visit the [release section](https://github.com/tuhinpal/cash_compass/releases) to download specific version of the app.
 
 ## Contributing 🤝
 
