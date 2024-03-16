@@ -12,6 +12,7 @@ class CashCompass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ThemeData theme = ThemeData(
+      useMaterial3: false,
       primarySwatch: Colors.green,
       colorScheme: const ColorScheme.light().copyWith(
         primary: customColorPrimary,
