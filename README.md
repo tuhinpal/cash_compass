@@ -1,3 +1,5 @@
+[![Supported By](https://raw.githubusercontent.com/tuhinpal/tuhinpal/master/supported-by-banner.svg)](https://ddevi.com/?utm_source=tuhin_github)
+
 <div align="center">
   <a href="https://github.com/tuhinpal/cash_compass">
     <img src="https://github.com/tuhinpal/cash_compass/assets/51857187/06d0a724-51c5-40e1-978a-c426b353a275" alt="Cashcompass Logo" width="150" height="150">
@@ -8,7 +10,7 @@
   <p align="center">
     Master Your Money: Effortless Tracking and Smarter Spending
     <br />
-    <a href="https://github.com/tuhinpal/cash_compass/releases/download/v0.1.1/app-release.apk"><strong>Download on Android »</strong></a>
+    <a href="https://github.com/tuhinpal/cash_compass/releases/download/v0.1.1/app-release.apk"><strong>Download for Android »</strong></a>
     <br />
     <br />
     <a href="https://github.com/tuhinpal/cash_compass/releases">Releases</a>
